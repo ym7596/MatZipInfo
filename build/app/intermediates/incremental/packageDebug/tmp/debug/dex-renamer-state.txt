@@ -1,4 +1,13 @@
-#Sun May 28 15:21:45 KST 2023
-base.0=/Users/ddur/Documents/flutterDev/matzipinfo/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.0=classes.dex
+#Sun May 28 17:27:25 KST 2023
+path.3=1/classes.dex
+path.2=0/classes.dex
+path.1=0/classes.dex
 path.0=classes.dex
+base.3=/Users/ddur/Documents/flutterDev/matzipinfo/MatZipInfo/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.2=/Users/ddur/Documents/flutterDev/matzipinfo/MatZipInfo/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=/Users/ddur/Documents/flutterDev/matzipinfo/MatZipInfo/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
+base.0=/Users/ddur/Documents/flutterDev/matzipinfo/MatZipInfo/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex

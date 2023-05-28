@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_naver_map/flutter_naver_map.dart';
 import 'package:matzipinfo/screen/HomeScreen.dart';
 
 //flutter run -d chrome --web-hostname localhost --web-port 5000
@@ -9,7 +10,12 @@ import 'package:matzipinfo/screen/HomeScreen.dart';
 
 //Naver API Client Secret
 //6SMwpGIcJovpLkShjyzj9aJPwmK7GsvDKgRIbVlg
-void main() {
+void  main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await NaverMapSdk.instance.initialize(clientId: '4f5hjwph9v',
+  onAuthFailed: (ex){
+    print("naver map error : $ex :");
+  });
   runApp(const MyApp());
 }
 
